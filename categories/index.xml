@@ -4,10 +4,6 @@
     <title>Categories on Shanduur Blog</title>
     <link>https://shanduur.github.io/categories/</link>
     <description>Recent content in Categories on Shanduur Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	<atom:link href="https://shanduur.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://shanduur.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

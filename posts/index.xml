@@ -5,10 +5,15 @@
     <link>https://shanduur.github.io/posts/</link>
     <description>Recent content in Posts on Shanduur Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://shanduur.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Fri, 16 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://shanduur.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My remote development tools (part 1) - Docker</title>
+      <link>https://shanduur.github.io/posts/remote-dev-1-docker/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shanduur.github.io/posts/remote-dev-1-docker/</guid>
+      <description>As most of the programs that I am developing are CLI tools or servers, and they don&amp;rsquo;t feature any Graphical User Interface, I recently started my developing inside Docker containers. As I own some low power server, that is fast and stable enough to handle compiling software inside Docker, I decided that I will host this myself. In this miniseries, I will present how I created my setup, and I will explain why I did those things.</description>
+    </item>
     
     <item>
       <title>Hello!</title>
