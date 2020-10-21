@@ -110,9 +110,9 @@
     </details>
   </div>
   <div class="post-content"><p>As most of the programs that I am developing are CLI tools or servers, and they don&rsquo;t feature any Graphical User Interface, I recently started my developing inside Docker containers. As I own some low power server, that is fast and stable enough to handle compiling software inside Docker, I decided that I will host this myself. In this miniseries, I will present how I created my setup, and I will explain why I did those things.</p>
-<h2 id="why-docker">Why Docker?</h2>
+<h1 id="why-docker">Why Docker?</h1>
 <p>Docker is an industry-standard for the containerization of applications, and probably most of the developers at least once had contact with it. Its primary idea was to host applications in virtualized and isolated environments. In my opinion, with the use of many handful features, Docker can create a portable dev environment, that will improve our coding experience, and allow us to learn Docker a little bit more.</p>
-<h2 id="how-to-create-dockerfile-for-remote-development">How to create Dockerfile for remote development</h2>
+<h1 id="how-to-create-dockerfile-for-remote-development">How to create Dockerfile for remote development</h1>
 <p>First, we have to define the base for our container - in my opinion, Ubuntu is a good choice, as it is easy to play with and is quite stable - especially the LTS releases.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Dockerfile" data-lang="Dockerfile"><span style="color:#66d9ef">FROM</span><span style="color:#e6db74"> ubuntu:focal</span><span style="color:#960050;background-color:#1e0010">
 </span></code></pre></div><p>Firstly we should start by updating packages.</p>
@@ -140,7 +140,7 @@
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Dockerfile" data-lang="Dockerfile"><span style="color:#66d9ef">EXPOSE</span><span style="color:#e6db74"> 22</span><span style="color:#960050;background-color:#1e0010">
 </span></code></pre></div><p>And the entry point - this will be run every time our container is started.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Dockerfile" data-lang="Dockerfile"><span style="color:#66d9ef">ENTRYPOINT</span> [<span style="color:#e6db74">&#34;/usr/sbin/sshd&#34;</span>, <span style="color:#e6db74">&#34;-D&#34;</span>]<span style="color:#960050;background-color:#1e0010">
-</span></code></pre></div><h2 id="complete-dockerfile">Complete Dockerfile</h2>
+</span></code></pre></div><h1 id="complete-dockerfile">Complete Dockerfile</h1>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Docker" data-lang="Docker"><span style="color:#66d9ef">FROM</span><span style="color:#e6db74"> ubuntu:focal</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> apt-get update <span style="color:#f92672">&amp;&amp;</span> apt-get upgrade -y<span style="color:#960050;background-color:#1e0010">
@@ -167,7 +167,7 @@
 </span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">EXPOSE</span><span style="color:#e6db74"> 22</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">ENTRYPOINT</span> [<span style="color:#e6db74">&#34;/usr/sbin/sshd&#34;</span>, <span style="color:#e6db74">&#34;-D&#34;</span>]<span style="color:#960050;background-color:#1e0010">
-</span></code></pre></div><h2 id="docker-compose-used-to-run-dockerfile">Docker-compose used to run Dockerfile</h2>
+</span></code></pre></div><h1 id="docker-compose-used-to-run-dockerfile">Docker-compose used to run Dockerfile</h1>
 <p>After creating Dockerfile, we can define the docker-compose YAML file to simplify the process of creating our container. It helps us create volume, bind the custom port to the exposed one, and set a build argument with our public RSA key.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">version</span>: <span style="color:#e6db74">&#39;3.8&#39;</span>
 <span style="color:#f92672">services</span>:

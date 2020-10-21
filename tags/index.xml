@@ -5,7 +5,34 @@
     <link>https://shanduur.github.io/tags/</link>
     <description>Recent content in Tags on Shanduur Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 16 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://shanduur.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://shanduur.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>remote-dev</title>
+      <link>https://shanduur.github.io/tags/remote-dev/</link>
+      <pubDate>Wed, 21 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shanduur.github.io/tags/remote-dev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>visual-studio</title>
+      <link>https://shanduur.github.io/tags/visual-studio/</link>
+      <pubDate>Wed, 21 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shanduur.github.io/tags/visual-studio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vscode</title>
+      <link>https://shanduur.github.io/tags/vscode/</link>
+      <pubDate>Wed, 21 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shanduur.github.io/tags/vscode/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>containers</title>
       <link>https://shanduur.github.io/tags/containers/</link>
@@ -21,15 +48,6 @@
       <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://shanduur.github.io/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>remote-dev</title>
-      <link>https://shanduur.github.io/tags/remote-dev/</link>
-      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://shanduur.github.io/tags/remote-dev/</guid>
       <description></description>
     </item>
     

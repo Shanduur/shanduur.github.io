@@ -5,7 +5,16 @@
     <link>https://shanduur.github.io/tags/remote-dev/</link>
     <description>Recent content in remote-dev on Shanduur Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 16 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://shanduur.github.io/tags/remote-dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://shanduur.github.io/tags/remote-dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My remote development tools (part 2) - Visual Studio Code</title>
+      <link>https://shanduur.github.io/posts/remote-dev-2-vscode/</link>
+      <pubDate>Wed, 21 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shanduur.github.io/posts/remote-dev-2-vscode/</guid>
+      <description>Visual Studio Code is an Electron-based app with large community support. It was initially developed as a fork of Atom - an open-source code editor developed by GitHub. As it&amp;rsquo;s Electron-based, there is little overhead compared to other code editors like Sublime Text 3, Kate, or Notepad++. But its biggest strength is customizability. It supports a huge number of community developed plugins and themes. I will focus mostly on the ones used by me.</description>
+    </item>
+    
     <item>
       <title>My remote development tools (part 1) - Docker</title>
       <link>https://shanduur.github.io/posts/remote-dev-1-docker/</link>
