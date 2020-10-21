@@ -8,19 +8,19 @@
     <lastBuildDate>Wed, 21 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://shanduur.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My remote development tools (part 2) - Visual Studio Code</title>
-      <link>https://shanduur.github.io/posts/2-remote-dev-2-vscode/</link>
+      <link>https://shanduur.github.io/posts/3-remote-dev-2-vscode/</link>
       <pubDate>Wed, 21 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://shanduur.github.io/posts/2-remote-dev-2-vscode/</guid>
+      <guid>https://shanduur.github.io/posts/3-remote-dev-2-vscode/</guid>
       <description>Visual Studio Code is an Electron-based app with large community support. It was initially developed as a fork of Atom - an open-source code editor developed by GitHub. As it&amp;rsquo;s Electron-based, there is little overhead compared to other code editors like Sublime Text 3, Kate, or Notepad++. But its biggest strength is customizability. It supports a huge number of community developed plugins and themes. I will focus mostly on the ones used by me.</description>
     </item>
     
     <item>
       <title>The movie you should watch - A Life on Our Planet</title>
-      <link>https://shanduur.github.io/posts/3-life-on-our-planet/</link>
+      <link>https://shanduur.github.io/posts/2-life-on-our-planet/</link>
       <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://shanduur.github.io/posts/3-life-on-our-planet/</guid>
+      <guid>https://shanduur.github.io/posts/2-life-on-our-planet/</guid>
       <description>I never talked about the natural environment in public. But the educational value of this movie is that big that I can&amp;rsquo;t just watch it and pass by without sharing it with anyone. Maybe some of you already watched David Attenborough: A Life on Our Planet recently added to Netflix. It tells a story about the natural environment, which surrounds us, and on which we have a devastating impact. Sir David Attenborough is a legendary narrator, traveler, and popularizer of natural science in the whole world.</description>
     </item>
     
