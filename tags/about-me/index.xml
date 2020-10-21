@@ -8,10 +8,10 @@
     <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://shanduur.github.io/tags/about-me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello!</title>
-      <link>https://shanduur.github.io/posts/hello/</link>
+      <link>https://shanduur.github.io/posts/0-hello/</link>
       <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://shanduur.github.io/posts/hello/</guid>
+      <guid>https://shanduur.github.io/posts/0-hello/</guid>
       <description>Good to see you there! I am a student at the Silesian University of Technology, at the time of writing this post, I&amp;rsquo;m during my final (7th) semester of Electronic, Control, and Information Engineering major. Currently, I&amp;rsquo;m employed by Asseco Poland.
 Interests? Many! Servers I love to work with the servers. My final thesis project is pluggabl - app for distributed image processing. I will share it&amp;rsquo;s code on GitHub when it&amp;rsquo;s finished, but until this moment, I can tell that it is using gRPC for Client / Server communication and it&amp;rsquo;s written in GoLang.</description>
     </item>
