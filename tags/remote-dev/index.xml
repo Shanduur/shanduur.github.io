@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>remote-dev on Shanduur Blog</title>
+    <title>remote-dev on Shanduur&#39;s Blog</title>
     <link>https://shanduur.github.io/tags/remote-dev/</link>
-    <description>Recent content in remote-dev on Shanduur Blog</description>
+    <description>Recent content in remote-dev on Shanduur&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 21 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://shanduur.github.io/tags/remote-dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://shanduur.github.io/tags/remote-dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My remote development tools (part 3) - Virtual Network</title>
+      <link>https://shanduur.github.io/posts/4-remote-dev-3-virtual-net/</link>
+      <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shanduur.github.io/posts/4-remote-dev-3-virtual-net/</guid>
+      <description>Last part of mine remote development kit, is virtual software defined network. I don&amp;rsquo;t have access to public IP, so I couldn&amp;rsquo;t setup VPN. The solution was quite simple - virtual software defined network. My goal was to find something free or freemium and open source. Firstly I stumbled upon ZeroTier One and later I found Tailscale. Both seemed to fulfill my needs, so I will write something about both of them, although do not consider me as specialist - those will be only my thoughts on those pieces of software.</description>
+    </item>
+    
     <item>
       <title>My remote development tools (part 2) - Visual Studio Code</title>
       <link>https://shanduur.github.io/posts/3-remote-dev-2-vscode/</link>

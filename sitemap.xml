@@ -3,27 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://shanduur.github.io/posts/3-remote-dev-2-vscode/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
+    <loc>https://shanduur.github.io/posts/4-remote-dev-3-virtual-net/</loc>
+    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shanduur.github.io/tags/network/</loc>
+    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://shanduur.github.io/posts/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://shanduur.github.io/tags/remote-dev/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://shanduur.github.io/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://shanduur.github.io/tags/</loc>
+    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shanduur.github.io/posts/3-remote-dev-2-vscode/</loc>
     <lastmod>2020-10-21T00:00:00+00:00</lastmod>
   </url>
   
