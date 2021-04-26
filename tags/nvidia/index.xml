@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nvidia on Shanduur&#39;s Blog</title>
+    <link>https://shanduur.github.io/tags/nvidia/</link>
+    <description>Recent content in nvidia on Shanduur&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 19 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://shanduur.github.io/tags/nvidia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nvidia and ARM revolution</title>
+      <link>https://shanduur.github.io/posts/7-nvidia-arm-cpu/</link>
+      <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://shanduur.github.io/posts/7-nvidia-arm-cpu/</guid>
+      <description>Nvidia GPU Technology Conference 2021 took place on 12 April 2021. During this conference, Nvidia unveiled a technological roadmap for upcoming years, which included new GPU architectures, datacenter DPU improvements, and a new datacenter CPU.
+BlueField DPU Nvidia BlueField 2021 roadmap, ServeTheHome
+First, let&amp;rsquo;s talk about NVidia DPU. It&amp;rsquo;s a specialized piece of silicon, previously known as Smart NIC (Network Interface Card) - a network adapter that accelerates functionality and offloads it from the server (or storage) CPU.</description>
+    </item>
+    
+  </channel>
+</rss>

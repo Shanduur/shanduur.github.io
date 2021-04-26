@@ -5,7 +5,18 @@
     <link>https://shanduur.github.io/</link>
     <description>Recent content on Shanduur&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://shanduur.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://shanduur.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nvidia and ARM revolution</title>
+      <link>https://shanduur.github.io/posts/7-nvidia-arm-cpu/</link>
+      <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://shanduur.github.io/posts/7-nvidia-arm-cpu/</guid>
+      <description>Nvidia GPU Technology Conference 2021 took place on 12 April 2021. During this conference, Nvidia unveiled a technological roadmap for upcoming years, which included new GPU architectures, datacenter DPU improvements, and a new datacenter CPU.
+BlueField DPU Nvidia BlueField 2021 roadmap, ServeTheHome
+First, let&amp;rsquo;s talk about NVidia DPU. It&amp;rsquo;s a specialized piece of silicon, previously known as Smart NIC (Network Interface Card) - a network adapter that accelerates functionality and offloads it from the server (or storage) CPU.</description>
+    </item>
+    
     <item>
       <title>Broken Sapphire RX 480 Nitro</title>
       <link>https://shanduur.github.io/posts/6-sapphire-rx-480/</link>
