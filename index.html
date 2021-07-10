@@ -37,21 +37,25 @@
 
 	
 <section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
-    <div class="content">
-        <h1>Mateusz Urbanek</h1>
-        <p class="major"><i>All we have to decide is what to do with the time that is given us.</i> J. R. R. Tolkien
+  <div class="content">
+      <h1>Mateusz Urbanek</h1>
+      <p class="major"><i>All we have to decide is what to do with the time that is given us.</i> J. R. R. Tolkien
 </p>
-        <p>I am a student of Data Science at the Silesian University of Technology.
+      <p>I am a student of Data Science at the Silesian University of Technology.
 My hobbies are somehow connected to my degree course and academic life - 
 I am interested in new technologies, eco vehicles and cloud computing. I am a HUGE Star Wars fan!
 </p>
-        <ul class="actions stacked">
-            <li><a href="#first" class="button primary large wide smooth-scroll-middle">Get Started</a></li>
-        </ul>
-    </div>
-    <div class="image">
-        <img src="images/banner-pexels-adam-sondel.jpg" alt="Hugo Story" />
-    </div>
+      <ul class="icons">
+        <li><a target="_blank" href="https://github.com/shanduur/" class="icon brands style2 fa-github"><span class="label">Github</span></a></li>
+        <li><a target="_blank" href="https://gitlab.com/shanduur/" class="icon brands style2 fa-gitlab"><span class="label">Github</span></a></li>
+        <li><a target="_blank" href="https://twitter.com/shanduur" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/mateurb98/" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        <li><a target="_blank" href="mailto:mateusz.urbane@gmail.com" class="fav icon style2 fa-envelope"><span class="label">Email</span></a></li>
+      </ul>
+  </div>
+  <div class="image">
+      <img src="images/banner-pexels-adam-sondel.jpg" alt="Banner" />
+  </div>
 </section>
 	
 <section class="spotlight style1 orient-right content-align-right image-position-center onscroll-image-fade-in" id="first">
@@ -119,9 +123,7 @@ communication module for Hydrogen-powered Car, as well as developement of teleme
 I also contributed to few Open-source projects, including <a href="https://github.com/digitalocean/doctl">digitalocean/doctl</a> 
 and <a href="https://github.com/hybridgroup/gocv">hybridgroup/gocv</a>.
 </p>
-        <ul class="actions stacked">
-            <li><a href="https://www.github.com/Shanduur" class="button" target="_blank">Fork Me</a></li>
-        </ul>
+        
     </div>
     <div class="image">
         <img src="images/carbon.png" alt="" />
@@ -214,8 +216,8 @@ You can support Kocia Nadzieja Śląsk (foundation caring for homeless kittens) 
 	
 <section class="wrapper style1 align-center">
     <div class="inner">
-        <h2>Summary</h2>
-        <p>This is a summary of all my achievements, cerificates and skills, and notable projects, presented in simple grid form. 
+        <h2>Achievements and Certificates</h2>
+        <p>This is a summary of all my achievements and cerificates, presented in simple grid form. 
 </p>
         <div class="items style1 medium onscroll-fade-in">
             
@@ -271,15 +273,6 @@ Credential ID: <code>PL-N0056502</code>
 
             
                 <section>
-  <span class="icon solid style2 major fa-terminal"></span>
-  <h3>Distributed System for Image Processing</h3>
-  <p>My engineering thesis project, distributed system written in Go<br/>
-<a href="https://github.com/Shanduur/dsip" target="_blank">Source Code</a>
-</p>
-</section>
-
-            
-                <section>
   <span class="icon solid style2 major fa-graduation-cap"></span>
   <h3>Introduction to IBM Mainframe</h3>
   <p>Participated in the training organized by Asseco Poland
@@ -306,6 +299,75 @@ Credential ID: <code>PL-N0056502</code>
         </div>
     </div>
 </section>
+				
+      <section class="wrapper style1 align-center">
+        <div class="inner">
+          <h2>Projects and Contributions</h2>
+          <p>Here is list of all my projects, as well as contributions to other open source projects.
+</p>
+          <div class="index align-left">
+            
+            
+              <section>
+  <header>
+    <h3>Projects</h3>
+  </header>
+  <div class="content">
+
+    <dl>
+      
+        <dt>DSIP</dt>
+<dd>
+  <a href="https://github.com/Shanduur/dsip" target="_blank" class="button small">View code</a>
+  <p>DSIP is my thesis project (final engineering project). It's an app for creating distributed computing service, that is easily extensible. 
+It utilizes gRPC framework, GoCV (OpenCV wrapper) and connects to PostgreSQL Database. 
+</p>
+</dd>
+      
+        <dt>Squat</dt>
+<dd>
+  <a href="https://github.com/Shanduur/squat" target="_blank" class="button small">View code</a>
+  <p>Squat is an application that provides simple SQL data generation functionality.
+It generates synthetic SQL data based on the table definition, that is gathered from the DBMS. Squat supports IBM Informix and PostgreSQL.
+</p>
+</dd>
+      
+    </dl>
+
+  </div>
+</section>
+            
+              <section>
+  <header>
+    <h3>Contributions</h3>
+  </header>
+  <div class="content">
+
+    <dl>
+      
+        <dt>hybridgroup/gocv</dt>
+<dd>
+  <a href="https://github.com/hybridgroup/gocv/pull/720" target="_blank" class="button small">View code</a>
+  <p>Implemented Go wrapper around native OpenCV <code>drawMatches</code> function. It draws found matches of keypoints from two images.
+</p>
+</dd>
+      
+        <dt>digitalocean/doctl</dt>
+<dd>
+  <a href="https://github.com/digitalocean/doctl/pull/969" target="_blank" class="button small">View code</a>
+  <p>I created the <code>--wait</code> flag to the <em>doctl</em> (subcommand <code>apps create-deployment</code>. 
+It waits for deployment to enter ACTIVE phase, while on phases ERROR, CANCELED and UNKNOWN returns error.
+</p>
+</dd>
+      
+    </dl>
+
+  </div>
+</section>
+            
+          </div>
+      </section>
+
 	
 <footer class="wrapper style1 align-center">
   <div class="inner">
